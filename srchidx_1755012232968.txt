@@ -1888,7 +1888,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5664,
+                                5638,
                                 5
                             ]
                         ]
@@ -1922,7 +1922,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5650,
+                                5624,
                                 7
                             ]
                         ]
@@ -2170,7 +2170,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5949,
+                                5923,
                                 6
                             ]
                         ]
@@ -2398,15 +2398,15 @@
                                 1
                             ],
                             [
-                                5472,
+                                5446,
                                 1
                             ],
                             [
-                                5546,
+                                5520,
                                 1
                             ],
                             [
-                                5773,
+                                5747,
                                 1
                             ]
                         ]
@@ -2954,7 +2954,7 @@
                                 1
                             ],
                             [
-                                5648,
+                                5622,
                                 1
                             ]
                         ]
@@ -3046,11 +3046,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5310,
+                                5284,
                                 1
                             ],
                             [
-                                5357,
+                                5331,
                                 1
                             ]
                         ]
@@ -3284,7 +3284,7 @@
                                 6
                             ],
                             [
-                                5874,
+                                5848,
                                 6
                             ]
                         ]
@@ -3301,7 +3301,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5866,
+                                5840,
                                 7
                             ]
                         ]
@@ -3409,7 +3409,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5746,
+                                5720,
                                 5
                             ]
                         ]
@@ -3501,7 +3501,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5793,
+                                5767,
                                 6
                             ]
                         ]
@@ -3695,7 +3695,7 @@
                                 3
                             ],
                             [
-                                5659,
+                                5633,
                                 3
                             ]
                         ]
@@ -3775,11 +3775,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5390,
+                                5364,
                                 5
                             ],
                             [
-                                5474,
+                                5448,
                                 5
                             ]
                         ]
@@ -3796,7 +3796,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5752,
+                                5726,
                                 8
                             ]
                         ]
@@ -3841,7 +3841,7 @@
                                 3
                             ],
                             [
-                                5671,
+                                5645,
                                 3
                             ]
                         ]
@@ -3866,7 +3866,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5632,
+                                5606,
                                 2
                             ]
                         ]
@@ -3933,7 +3933,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5675,
+                                5649,
                                 13
                             ]
                         ]
@@ -3950,7 +3950,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5805,
+                                5779,
                                 9
                             ]
                         ]
@@ -4004,7 +4004,7 @@
                                 5
                             ],
                             [
-                                5425,
+                                5399,
                                 5
                             ]
                         ]
@@ -4101,11 +4101,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5899,
+                                5873,
                                 5
                             ],
                             [
-                                5917,
+                                5891,
                                 5
                             ]
                         ]
@@ -4151,11 +4151,11 @@
                                 5
                             ],
                             [
-                                5893,
+                                5867,
                                 5
                             ],
                             [
-                                5905,
+                                5879,
                                 5
                             ]
                         ]
@@ -4172,11 +4172,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                6043,
+                                6017,
                                 5
                             ],
                             [
-                                6049,
+                                6023,
                                 5
                             ]
                         ]
@@ -4235,11 +4235,11 @@
                                 10
                             ],
                             [
-                                5527,
+                                5501,
                                 10
                             ],
                             [
-                                5728,
+                                5702,
                                 10
                             ]
                         ]
@@ -4571,7 +4571,7 @@
                                 10
                             ],
                             [
-                                5461,
+                                5435,
                                 10
                             ]
                         ]
@@ -4850,11 +4850,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5956,
+                                5930,
                                 5
                             ],
                             [
-                                5967,
+                                5941,
                                 5
                             ]
                         ]
@@ -5005,7 +5005,7 @@
                                 11
                             ],
                             [
-                                5881,
+                                5855,
                                 11
                             ]
                         ]
@@ -5094,7 +5094,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5565,
+                                5539,
                                 10
                             ]
                         ]
@@ -5208,7 +5208,7 @@
                                 7
                             ],
                             [
-                                5557,
+                                5531,
                                 7
                             ]
                         ]
@@ -5261,11 +5261,11 @@
                                 4
                             ],
                             [
-                                5512,
+                                5486,
                                 4
                             ],
                             [
-                                5583,
+                                5557,
                                 4
                             ]
                         ]
@@ -5303,7 +5303,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5800,
+                                5774,
                                 4
                             ]
                         ]
@@ -5379,23 +5379,23 @@
                                 6
                             ],
                             [
-                                5978,
+                                5952,
                                 6
                             ],
                             [
-                                5995,
+                                5969,
                                 6
                             ],
                             [
-                                6017,
+                                5991,
                                 6
                             ],
                             [
-                                6036,
+                                6010,
                                 6
                             ],
                             [
-                                6055,
+                                6029,
                                 6
                             ]
                         ]
@@ -5429,7 +5429,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5860,
+                                5834,
                                 5
                             ]
                         ]
@@ -5450,7 +5450,7 @@
                                 5
                             ],
                             [
-                                5604,
+                                5578,
                                 5
                             ]
                         ]
@@ -5568,7 +5568,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5377,
+                                5351,
                                 12
                             ]
                         ]
@@ -5728,7 +5728,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5775,
+                                5749,
                                 8
                             ]
                         ]
@@ -5785,7 +5785,7 @@
                                 3
                             ],
                             [
-                                5826,
+                                5800,
                                 3
                             ]
                         ]
@@ -5819,7 +5819,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5491,
+                                5465,
                                 4
                             ]
                         ]
@@ -5853,7 +5853,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5935,
+                                5909,
                                 7
                             ]
                         ]
@@ -6008,7 +6008,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5843,
+                                5817,
                                 7
                             ]
                         ]
@@ -6184,7 +6184,7 @@
                                 2
                             ],
                             [
-                                5698,
+                                5672,
                                 2
                             ]
                         ]
@@ -6224,23 +6224,6 @@
                             [
                                 955,
                                 12
-                            ]
-                        ]
-                    }
-                }
-            }
-        ],
-        [
-            "iniкопироватьредактироватьtotal_money",
-            {
-                "_index": 406,
-                "title": {},
-                "text": {
-                    "/PawStudio-Docs/documentation/litequest/quest-config/": {
-                        "position": [
-                            [
-                                5272,
-                                37
                             ]
                         ]
                     }
@@ -6313,7 +6296,7 @@
                                 2
                             ],
                             [
-                                5422,
+                                5396,
                                 2
                             ]
                         ]
@@ -6355,7 +6338,7 @@
                                 4
                             ],
                             [
-                                5962,
+                                5936,
                                 4
                             ]
                         ]
@@ -6414,11 +6397,11 @@
                                 4
                             ],
                             [
-                                5973,
+                                5947,
                                 4
                             ],
                             [
-                                5985,
+                                5959,
                                 4
                             ]
                         ]
@@ -6435,7 +6418,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5830,
+                                5804,
                                 5
                             ]
                         ]
@@ -6719,7 +6702,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5577,
+                                5551,
                                 5
                             ]
                         ]
@@ -6867,11 +6850,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                6007,
+                                5981,
                                 4
                             ],
                             [
-                                6012,
+                                5986,
                                 4
                             ]
                         ]
@@ -6942,7 +6925,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5404,
+                                5378,
                                 9
                             ]
                         ]
@@ -7001,7 +6984,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5330,
+                                5304,
                                 14
                             ]
                         ]
@@ -7145,7 +7128,7 @@
                                 5
                             ],
                             [
-                                5551,
+                                5525,
                                 5
                             ]
                         ]
@@ -7274,11 +7257,11 @@
                                 2
                             ],
                             [
-                                5446,
+                                5420,
                                 2
                             ],
                             [
-                                5815,
+                                5789,
                                 2
                             ]
                         ]
@@ -7349,11 +7332,11 @@
                                 2
                             ],
                             [
-                                5431,
+                                5405,
                                 2
                             ],
                             [
-                                5601,
+                                5575,
                                 2
                             ]
                         ]
@@ -7593,11 +7576,11 @@
                                 10
                             ],
                             [
-                                5435,
+                                5409,
                                 10
                             ],
                             [
-                                5480,
+                                5454,
                                 10
                             ]
                         ]
@@ -7660,11 +7643,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5911,
+                                5885,
                                 5
                             ],
                             [
-                                5923,
+                                5897,
                                 5
                             ]
                         ]
@@ -7681,7 +7664,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5635,
+                                5609,
                                 12
                             ]
                         ]
@@ -7755,7 +7738,7 @@
                                 6
                             ],
                             [
-                                5836,
+                                5810,
                                 6
                             ]
                         ]
@@ -7859,7 +7842,7 @@
                                 8
                             ],
                             [
-                                5517,
+                                5491,
                                 8
                             ]
                         ]
@@ -8258,15 +8241,15 @@
                                 5
                             ],
                             [
-                                5455,
+                                5429,
                                 5
                             ],
                             [
-                                5588,
+                                5562,
                                 5
                             ],
                             [
-                                5854,
+                                5828,
                                 5
                             ]
                         ]
@@ -8551,11 +8534,11 @@
                                 7
                             ],
                             [
-                                5396,
+                                5370,
                                 7
                             ],
                             [
-                                5414,
+                                5388,
                                 7
                             ]
                         ]
@@ -8610,7 +8593,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5689,
+                                5663,
                                 8
                             ]
                         ]
@@ -8735,7 +8718,7 @@
                                 15
                             ],
                             [
-                                5702,
+                                5676,
                                 15
                             ]
                         ]
@@ -8756,11 +8739,11 @@
                                 10
                             ],
                             [
-                                5497,
+                                5471,
                                 10
                             ],
                             [
-                                5762,
+                                5736,
                                 10
                             ]
                         ]
@@ -8785,7 +8768,7 @@
                                 15
                             ],
                             [
-                                5615,
+                                5589,
                                 15
                             ]
                         ]
@@ -8846,11 +8829,11 @@
                                 7
                             ],
                             [
-                                5538,
+                                5512,
                                 7
                             ],
                             [
-                                5818,
+                                5792,
                                 7
                             ]
                         ]
@@ -8905,7 +8888,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5610,
+                                5584,
                                 4
                             ]
                         ]
@@ -8939,7 +8922,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5784,
+                                5758,
                                 7
                             ]
                         ]
@@ -9167,11 +9150,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                6024,
+                                5998,
                                 5
                             ],
                             [
-                                6030,
+                                6004,
                                 5
                             ]
                         ]
@@ -9264,11 +9247,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5929,
+                                5903,
                                 5
                             ],
                             [
-                                5943,
+                                5917,
                                 5
                             ]
                         ]
@@ -9559,11 +9542,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5990,
+                                5964,
                                 4
                             ],
                             [
-                                6002,
+                                5976,
                                 4
                             ]
                         ]
@@ -9706,7 +9689,7 @@
                                 3
                             ],
                             [
-                                5724,
+                                5698,
                                 3
                             ]
                         ]
@@ -9876,7 +9859,7 @@
                                 2
                             ],
                             [
-                                5509,
+                                5483,
                                 2
                             ]
                         ]
@@ -9893,7 +9876,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5449,
+                                5423,
                                 5
                             ]
                         ]
@@ -9910,8 +9893,25 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5345,
+                                5319,
                                 9
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "total_money",
+            {
+                "_index": 406,
+                "title": {},
+                "text": {
+                    "/PawStudio-Docs/documentation/litequest/quest-config/": {
+                        "position": [
+                            [
+                                5272,
+                                11
                             ]
                         ]
                     }
@@ -9927,7 +9927,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5739,
+                                5713,
                                 6
                             ]
                         ]
@@ -9995,7 +9995,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5594,
+                                5568,
                                 6
                             ]
                         ]
@@ -10037,11 +10037,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5312,
+                                5286,
                                 15
                             ],
                             [
-                                5359,
+                                5333,
                                 15
                             ]
                         ]
@@ -10451,7 +10451,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5719,
+                                5693,
                                 4
                             ]
                         ]
@@ -11031,11 +11031,11 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5328,
+                                5302,
                                 1
                             ],
                             [
-                                5375,
+                                5349,
                                 1
                             ]
                         ]
@@ -11132,7 +11132,7 @@
                     "/PawStudio-Docs/documentation/litequest/quest-config/": {
                         "position": [
                             [
-                                5851,
+                                5825,
                                 2
                             ]
                         ]
@@ -11272,7 +11272,7 @@
                                 2
                             ],
                             [
-                                5548,
+                                5522,
                                 2
                             ]
                         ]
