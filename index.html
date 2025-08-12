@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        📜 Welcome to LiteQuest - [Company Name]
+    </title>
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="📜 Welcome to LiteQuest"/>
+    <link rel="icon" type="image/svg+xml" href="https://nekomadev.github.io"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://nekomadev.github.io">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://nekomadev.github.io">    
+        
+    <meta property="og:image" content="https://nekomadev.github.io"/>
+    <meta property="og:url" content="https://nekomadev.github.io/PawStudio-Docs/">
+    <meta property="og:title" content="📜 Welcome to LiteQuest - [Company Name]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="📜 Welcome to LiteQuest"/>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:title" content="📜 Welcome to LiteQuest - [Company Name]" />
+    <meta name="twitter:description" content="📜 Welcome to LiteQuest" />
+    <meta name="twitter:image" content="https://nekomadev.github.io"/>
+
+    <link rel="canonical" href="https://nekomadev.github.io/PawStudio-Docs/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&subset=latin&display=swap"
+          rel="stylesheet"/>
+    
+    <link rel="preload" href="https://nekomadev.github.io/PawStudio-Docs/_lib/index.css" as="style">
+    <link rel="stylesheet" href="https://nekomadev.github.io/PawStudio-Docs/_lib/index.css"/>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        html {
+            scroll-padding-top: 120px;
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+    <script>
+        function getInitialTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'system';
+            if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        const theme = getInitialTheme();
+        document.documentElement.classList.add('theme-' + theme);
+    </script>
+    
+</head>
+<body>
+
+<div id="root">
+    <sl-drawer id="menu-drawer" label="Documentation" class="drawer__control" placement="top">
+        <div class="body__drawer">
+            <div class="items">
+                
+                    
+                        <sl-button 
+                            class="nav_button  current " 
+                            size="medium" 
+                            href="/PawStudio-Docs/"
+                        >
+                            Documentation
+                        </sl-button>
+                         
+                
+            </div>
+            <sl-divider class="divider__drawer"></sl-divider>
+            <nav class="tree">
+                <div class="scroll-panel">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="4E3_AlmQ8TniYvjNSAQqC" 
+                                                style="--indent-level: 0"
+                                                class="folder"
+                                            >
+                                                <span>LiteQuest</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="CxAfDaKbQV42g8uAOZ3SE" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/">📜 Welcome to LiteQuest</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="7yExyCKbFDOEc-XcC26MD" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/documentation/litequest/quest-config/"> 📘 Quest config</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </div>
+            </nav>
+        </div>
+    </sl-drawer>
+
+    <div class="body__wrapper">
+        <div class="nav__container">
+            <nav>
+                <div class="border-box"></div>
+                <div class="logo">
+                    
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+</svg>
+
+                        </div>
+                    
+                    <div>
+                        
+                            <span class="line-clamp-1">[Company Name]</span>
+                        
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        
+                            
+                                <sl-button 
+                                    class="nav_button  current " 
+                                    size="medium" 
+                                    href="/PawStudio-Docs/"
+                                >
+                                    Documentation
+                                </sl-button>
+                                                    
+                        
+                    </div>
+                </div>
+                <div class="search">
+                    <div>
+                        <sl-button id="search-button" class="search_button">
+                            <sl-icon slot="prefix" name="search"></sl-icon>
+                            Search
+                            <div slot="suffix">
+                                <div class="button__prefix-wrapper">
+                                    <div class="button__prefix-container">
+                                        <sl-icon name="command"></sl-icon>
+                                        <span class="font-w-semibold">K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </sl-button>
+                    </div>
+                    <div>
+                        <sl-dropdown id="theme-selector" hoist>
+                            <sl-button slot="trigger" class="nav_button">
+                                <sl-icon id="theme-selector-icon" slot="prefix" name="sun"></sl-icon>
+                            </sl-button>
+                            <sl-menu id="theme-selector-menu">
+                                <sl-menu-item type="checkbox" value="light">Light</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="dark">Dark</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="system">System</sl-menu-item>
+                            </sl-menu>
+                        </sl-dropdown>
+                    </div>
+                    <div class="menu">
+                        <sl-button id="menu-open-trigger" class="nav_button" outline>
+                            <sl-icon slot="prefix" name="list"></sl-icon>
+                        </sl-button>
+                    </div>
+                </div>
+            </nav>    
+        </div>
+        <div class="content__container">
+            <aside class="tree">
+                <nav id="nav-tree" class="tree">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="4E3_AlmQ8TniYvjNSAQqC" 
+                                                style="--indent-level: 0"
+                                                expanded
+                                                class="folder"
+                                            >
+                                                <span>LiteQuest</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="CxAfDaKbQV42g8uAOZ3SE" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/">📜 Welcome to LiteQuest</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="7yExyCKbFDOEc-XcC26MD" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/documentation/litequest/quest-config/"> 📘 Quest config</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </nav>
+                <nav id="white-label-container" class="menu">
+                    <a class="white-label" href="https://tiledocs.com" target="_blank">
+                        <div class="card-container">
+                            <div class="icon-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="title-section">
+                                <sl-tooltip hoist style="--max-width: 30ch;" placement="top-start" content="This documentation site was created using TileDocs, a fast and user-friendly editor for building and hosting documentation projects.">
+                                    <span>Made with TileDocs</span>
+                                <sl-tooltip>
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+            </aside>
+            
+            <article>
+                <main>
+                    <div class="content">
+                        <h1 id="welcome-to-litequest" dir="ltr"><span style="white-space: pre-wrap;">📜 Welcome to LiteQuest</span></h1><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">LiteQuest is a lightweight and flexible Minecraft plugin for creating and managing quests. It is designed to work efficiently on any Paper-based server and offers both solo an</span></p><p dir="ltr" style="text-align: left;"><b><strong class="text-bold" style="white-space: pre-wrap;">LiteQuest</strong></b><span style="white-space: pre-wrap;"> is a lightweight and flexible Minecraft plugin for creating and managing quests.</span><br><span style="white-space: pre-wrap;">It is designed to work efficiently on any Paper-based server and offers both solo and group questing experiences.</span></p><p dir="ltr" style="text-align: start;"></p><hr><p></p><h2 id="key-features" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📌 Key Features</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/#key-features"></a></h2><ul><li value="1"><b><strong class="text-bold" style="white-space: pre-wrap;">Quest-based configuration</strong></b><br><span style="white-space: pre-wrap;">Each quest is stored as a separate configuration file (</span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">1 config = 1 quest</span></code><span style="white-space: pre-wrap;">).</span><br><span style="white-space: pre-wrap;">All quest files are located in:</span><br><span style="white-space: pre-wrap;">plugins/LiteQuest/quests</span></li><li value="2"><b><strong class="text-bold" style="white-space: pre-wrap;">Solo or Group Play</strong></b><br><span style="white-space: pre-wrap;">Quests can be assigned to one or multiple players, allowing cooperative progression.</span></li><li value="3"><b><strong class="text-bold" style="white-space: pre-wrap;">Optimized Data Loading</strong></b><br><span style="white-space: pre-wrap;">Quest sessions and player data are loaded only when needed, ensuring high performance.</span></li><li value="4"><b><strong class="text-bold" style="white-space: pre-wrap;">Quest Sessions</strong></b><br><span style="white-space: pre-wrap;">When a quest is assigned, a dedicated </span><b><strong class="text-bold" style="white-space: pre-wrap;">session</strong></b><span style="white-space: pre-wrap;"> is created:</span><br><span style="white-space: pre-wrap;">plugins/LiteQuest/sessions</span><br><span style="white-space: pre-wrap;">Each session stores live quest progress and participant information.</span></li><li value="5"><b><strong class="text-bold" style="white-space: pre-wrap;">Player Data Management</strong></b><br><span style="white-space: pre-wrap;">Player profiles are stored in:</span><br><span style="white-space: pre-wrap;">plugins/LiteQuest/players</span><br><span style="white-space: pre-wrap;">Upon login, the plugin automatically loads the player’s profile along with all active quest sessions.</span></li><li value="6"><b><strong class="text-bold" style="white-space: pre-wrap;">Progress Tracking</strong></b><br><span style="white-space: pre-wrap;">Players can view their active quests via:</span><br><span style="white-space: pre-wrap;">/lquest menu</span><br><span style="white-space: pre-wrap;">The menu displays all active quests and the completion percentage for each participant.</span></li><li value="7"><b><strong class="text-bold" style="white-space: pre-wrap;">Reward System</strong></b></li><li value="8"><ul><li value="1"><span style="white-space: pre-wrap;">Online players receive rewards immediately upon quest completion.</span></li><li value="2"><span style="white-space: pre-wrap;">Offline players have their rewards stored in their profile until their next login.</span></li></ul></li></ul><h2 id="data-structure-overview" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📂 Data Structure Overview</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/#data-structure-overview"></a></h2><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">plugins/</span></p><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">  LiteQuest/</span></p><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">    quests/       &lt;- Static quest configurations</span></p><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">    sessions/     &lt;- Active quest session data</span></p><p dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">    players/      &lt;- Player profiles</span></p>
+                    </div>
+                </main>
+                <div class="footer">
+                    <div class="content">
+                        <div class="date">
+                            <div>Aug 12, 2025</div>
+                        </div>
+                         <div></div> 
+                        
+                            <a href="/PawStudio-Docs/documentation/litequest/quest-config/" class="column right-column" title=" 📘 Quest config">
+                                <div class="label">
+                                    <div class="title">NEXT</div>
+                                    <div class="line-clamp-2">
+                                         📘 Quest config
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <sl-icon name="chevron-right"></sl-icon>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </article>
+            <aside class="toc">
+                <nav class="toc">
+                    
+                    <div class="title">
+                        <sl-icon class="icon" name="list-nested"></sl-icon>
+                        <div>
+                            On this page
+                        </div>
+                    </div>
+                    <div id="toc-list" class="list">
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/PawStudio-Docs/#key-features">📌 Key Features</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/PawStudio-Docs/#data-structure-overview">📂 Data Structure Overview</a>
+                                </div>
+                                
+                        
+                    </div>
+                    
+                </nav>
+            </aside>
+        </div>
+        <footer>
+            <div class="stack__column stack__gap-4 stack__center">
+                
+                <div class="stack__row stack__center">
+                    <span><span>Year &copy; Company Name</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<sl-dialog id="search-dialog" class="dialog_control dialog__search">
+    <div slot="label">
+        <p>Search</p>
+    </div>
+    <div class="pane stack__column stack__gap-4">
+        <div>
+            <sl-input
+                id="search-input"
+                type="text"
+                size="small"
+                autocomplete="off"
+                autofocus
+                clearable
+                placeholder="Type text you want to search..."
+            >
+            </sl-input>
+        </div>
+        <div id="search-result" class="stack__column stack__gap-4 search-result">
+        </div>
+        <div id="search-footer" class="footer"></div>
+    </div>
+</sl-dialog>
+<script type="module" src="https://nekomadev.github.io/PawStudio-Docs/_lib/index.js" data-shoelace="https://nekomadev.github.io/PawStudio-Docs/_lib"></script>
+<script type="module">
+    import {initPage, initTheme, initSearch, initToc} from 'https://nekomadev.github.io/PawStudio-Docs/_lib/init.js';
+    import {preInitTree} from 'https://nekomadev.github.io/PawStudio-Docs/_lib/pre.js';
+    preInitTree();
+    await initPage();
+    await initTheme('system');
+    await initSearch('https://nekomadev.github.io/PawStudio-Docs', '1755010558886');
+    document.documentElement.style.visibility = 'visible';
+    document.documentElement.style.opacity = '1';
+    initToc();
+</script>
+
+</body>
+</html>

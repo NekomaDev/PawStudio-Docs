@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nekomadev.github.io/PawStudio-Docs/sitemap_index.xml

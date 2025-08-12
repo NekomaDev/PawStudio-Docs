@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+         📘 Quest config - [Company Name]
+    </title>
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content=" 📘 Quest config"/>
+    <link rel="icon" type="image/svg+xml" href="https://nekomadev.github.io"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://nekomadev.github.io">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://nekomadev.github.io">    
+        
+    <meta property="og:image" content="https://nekomadev.github.io"/>
+    <meta property="og:url" content="https://nekomadev.github.io/PawStudio-Docs/documentation/litequest/quest-config/">
+    <meta property="og:title" content=" 📘 Quest config - [Company Name]" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content=" 📘 Quest config"/>
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:title" content=" 📘 Quest config - [Company Name]" />
+    <meta name="twitter:description" content=" 📘 Quest config" />
+    <meta name="twitter:image" content="https://nekomadev.github.io"/>
+
+    <link rel="canonical" href="https://nekomadev.github.io/PawStudio-Docs/documentation/litequest/quest-config/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&subset=latin&display=swap"
+          rel="stylesheet"/>
+    
+    <link rel="preload" href="https://nekomadev.github.io/PawStudio-Docs/_lib/index.css" as="style">
+    <link rel="stylesheet" href="https://nekomadev.github.io/PawStudio-Docs/_lib/index.css"/>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        html {
+            scroll-padding-top: 120px;
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+    <script>
+        function getInitialTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'system';
+            if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        const theme = getInitialTheme();
+        document.documentElement.classList.add('theme-' + theme);
+    </script>
+    
+</head>
+<body>
+
+<div id="root">
+    <sl-drawer id="menu-drawer" label="Documentation" class="drawer__control" placement="top">
+        <div class="body__drawer">
+            <div class="items">
+                
+                    
+                        <sl-button 
+                            class="nav_button  current " 
+                            size="medium" 
+                            href="/PawStudio-Docs/"
+                        >
+                            Documentation
+                        </sl-button>
+                         
+                
+            </div>
+            <sl-divider class="divider__drawer"></sl-divider>
+            <nav class="tree">
+                <div class="scroll-panel">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="4E3_AlmQ8TniYvjNSAQqC" 
+                                                style="--indent-level: 0"
+                                                class="folder"
+                                            >
+                                                <span>LiteQuest</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="CxAfDaKbQV42g8uAOZ3SE" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/">📜 Welcome to LiteQuest</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="7yExyCKbFDOEc-XcC26MD" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/documentation/litequest/quest-config/"> 📘 Quest config</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </div>
+            </nav>
+        </div>
+    </sl-drawer>
+
+    <div class="body__wrapper">
+        <div class="nav__container">
+            <nav>
+                <div class="border-box"></div>
+                <div class="logo">
+                    
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+  <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+</svg>
+
+                        </div>
+                    
+                    <div>
+                        
+                            <span class="line-clamp-1">[Company Name]</span>
+                        
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        
+                            
+                                <sl-button 
+                                    class="nav_button  current " 
+                                    size="medium" 
+                                    href="/PawStudio-Docs/"
+                                >
+                                    Documentation
+                                </sl-button>
+                                                    
+                        
+                    </div>
+                </div>
+                <div class="search">
+                    <div>
+                        <sl-button id="search-button" class="search_button">
+                            <sl-icon slot="prefix" name="search"></sl-icon>
+                            Search
+                            <div slot="suffix">
+                                <div class="button__prefix-wrapper">
+                                    <div class="button__prefix-container">
+                                        <sl-icon name="command"></sl-icon>
+                                        <span class="font-w-semibold">K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </sl-button>
+                    </div>
+                    <div>
+                        <sl-dropdown id="theme-selector" hoist>
+                            <sl-button slot="trigger" class="nav_button">
+                                <sl-icon id="theme-selector-icon" slot="prefix" name="sun"></sl-icon>
+                            </sl-button>
+                            <sl-menu id="theme-selector-menu">
+                                <sl-menu-item type="checkbox" value="light">Light</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="dark">Dark</sl-menu-item>
+                                <sl-menu-item type="checkbox" value="system">System</sl-menu-item>
+                            </sl-menu>
+                        </sl-dropdown>
+                    </div>
+                    <div class="menu">
+                        <sl-button id="menu-open-trigger" class="nav_button" outline>
+                            <sl-icon slot="prefix" name="list"></sl-icon>
+                        </sl-button>
+                    </div>
+                </div>
+            </nav>    
+        </div>
+        <div class="content__container">
+            <aside class="tree">
+                <nav id="nav-tree" class="tree">
+                    
+                        
+                            
+                            
+                            
+                                <sl-tree class="tree__with_lines" selection="leaf">
+                                    
+                                
+                                    
+                                        
+                                            <sl-tree-item 
+                                                id="4E3_AlmQ8TniYvjNSAQqC" 
+                                                style="--indent-level: 0"
+                                                expanded
+                                                class="folder"
+                                            >
+                                                <span>LiteQuest</span>
+                                                
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="CxAfDaKbQV42g8uAOZ3SE" 
+                                            style="--indent-level: 1"
+                                            
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/">📜 Welcome to LiteQuest</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                                    
+                                        <sl-tree-item 
+                                            id="7yExyCKbFDOEc-XcC26MD" 
+                                            style="--indent-level: 1"
+                                             selected 
+                                            class="leaf"
+                                        >
+                                            <a href="/PawStudio-Docs/documentation/litequest/quest-config/"> 📘 Quest config</a>
+                                        </sl-tree-item>                                        
+                                    
+                                
+                             
+                                            </sl-tree-item>
+                                                                                
+                                    
+                                
+                            
+                                </sl-tree>
+                            
+                        
+                        
+                </nav>
+                <nav id="white-label-container" class="menu">
+                    <a class="white-label" href="https://tiledocs.com" target="_blank">
+                        <div class="card-container">
+                            <div class="icon-section">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="title-section">
+                                <sl-tooltip hoist style="--max-width: 30ch;" placement="top-start" content="This documentation site was created using TileDocs, a fast and user-friendly editor for building and hosting documentation projects.">
+                                    <span>Made with TileDocs</span>
+                                <sl-tooltip>
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+            </aside>
+            
+            <article>
+                <main>
+                    <div class="content">
+                        <h1 id="quest-config" dir="ltr"><span style="white-space: pre-wrap;"> 📘 Quest config</span></h1><p dir="ltr" style="text-align: start;"><br><span style="white-space: pre-wrap;">Each file contains:</span></p><ul><li value="1" style="text-align: start;"><span style="white-space: pre-wrap;">Quest display settings (icon, name, description)</span></li><li value="2" style="text-align: start;"><span style="white-space: pre-wrap;">Conditions (objectives to complete)</span></li><li value="3" style="text-align: start;"><span style="white-space: pre-wrap;">Rewards (per-player ranking rewards)</span></li><li value="4" style="text-align: start;"><span style="white-space: pre-wrap;">Start commands (executed when the quest begins)</span></li></ul><h2 id="example-miner-quest-(static)" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📝 Example – Miner Quest (Static)</span></h2><div class="code-block"><div class="toolbar-cell"><div class="language-title">JSON</div><div><sl-copy-button value="{
+  &quot;display_item&quot;: {
+    &quot;material&quot;: &quot;IRON_PICKAXE&quot;,
+    &quot;display_name&quot;: &quot;{#FFE04F}Miner quest!&quot;,
+    &quot;lore&quot;: [
+      &quot;{#FFD966}Put your pickaxe to work and show your skills!&quot;,
+      &quot;{#FFD966}Mine various stones and gather valuable resources.&quot;,
+      &quot;{#FFD966}Complete all tasks to earn great rewards.&quot;
+    ]
+  },
+  &quot;conditions&quot;: [
+    {
+      &quot;display_tip&quot;: &quot;{#FFE04F}Stone&quot;,
+      &quot;action&quot;: &quot;BREAK&quot;,
+      &quot;target&quot;: &quot;STONE&quot;,
+      &quot;amount&quot;: &quot;3&quot;
+    },
+    {
+      &quot;display_tip&quot;: &quot;{#B1B3A5}Andesite&quot;,
+      &quot;action&quot;: &quot;BREAK&quot;,
+      &quot;target&quot;: &quot;ANDESITE&quot;,
+      &quot;amount&quot;: &quot;3&quot;
+    }
+  ],
+  &quot;reward&quot;: {
+    &quot;start_commands&quot;:[
+      &quot;server_message {#FF8C26}[LiteQuest] {#FF8C26}{#FFFB92}Miner quest has started! {#FF3939}Hurry up!!!&quot;
+    ],
+    &quot;rewards&quot;:{
+      &quot;1&quot;:[
+         &quot;plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!\n§7Reward:\n {#FFFC26}⁑ Money: {#FF9601}500$\n {#7AFF5A}⁑ Exp: {#FF9601}250&quot;,
+         &quot;money add %player_name% 500&quot;,
+         &quot;experience add %player_name% 250&quot;
+      ],
+      &quot;2&quot;:[
+        &quot;plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!\n§7Reward:\n {#FFFC26}⁑ Money: {#FF9601}250$\n {#7AFF5A}⁑ Exp: {#FF9601}100&quot;,
+         &quot;money add %player_name% 250&quot;,
+         &quot;experience add %player_name% 100&quot;
+      ] 
+    }
+  }
+}" copy-label="Copy to clipboard" success-label="The code is copied to clipboard"></sl-copy-button></div></div><div class="code-cell" style="height: 1082.31px;"><div class="container"><pre class="shiki shiki-themes" style="background-color:#f1f5f9;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="code-view"><span class="line" data-line="1"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line" data-line="2"><span style="color:#116329;--shiki-dark:#7EE787">  "display_item"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="3"><span style="color:#116329;--shiki-dark:#7EE787">    "material"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"IRON_PICKAXE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="4"><span style="color:#116329;--shiki-dark:#7EE787">    "display_name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#FFE04F}Miner quest!"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="5"><span style="color:#116329;--shiki-dark:#7EE787">    "lore"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="6"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Put your pickaxe to work and show your skills!"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="7"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Mine various stones and gather valuable resources."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="8"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Complete all tasks to earn great rewards."</span></span>
+<span class="line" data-line="9"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ]</span></span>
+<span class="line" data-line="10"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  },</span></span>
+<span class="line" data-line="11"><span style="color:#116329;--shiki-dark:#7EE787">  "conditions"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="12"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    {</span></span>
+<span class="line" data-line="13"><span style="color:#116329;--shiki-dark:#7EE787">      "display_tip"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#FFE04F}Stone"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="14"><span style="color:#116329;--shiki-dark:#7EE787">      "action"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"BREAK"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="15"><span style="color:#116329;--shiki-dark:#7EE787">      "target"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"STONE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="16"><span style="color:#116329;--shiki-dark:#7EE787">      "amount"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"3"</span></span>
+<span class="line" data-line="17"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    },</span></span>
+<span class="line" data-line="18"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    {</span></span>
+<span class="line" data-line="19"><span style="color:#116329;--shiki-dark:#7EE787">      "display_tip"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#B1B3A5}Andesite"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="20"><span style="color:#116329;--shiki-dark:#7EE787">      "action"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"BREAK"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="21"><span style="color:#116329;--shiki-dark:#7EE787">      "target"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ANDESITE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="22"><span style="color:#116329;--shiki-dark:#7EE787">      "amount"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"3"</span></span>
+<span class="line" data-line="23"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    }</span></span>
+<span class="line" data-line="24"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ],</span></span>
+<span class="line" data-line="25"><span style="color:#116329;--shiki-dark:#7EE787">  "reward"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="26"><span style="color:#116329;--shiki-dark:#7EE787">    "start_commands"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:[</span></span>
+<span class="line" data-line="27"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "server_message {#FF8C26}[LiteQuest] {#FF8C26}{#FFFB92}Miner quest has started! {#FF3939}Hurry up!!!"</span></span>
+<span class="line" data-line="28"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ],</span></span>
+<span class="line" data-line="29"><span style="color:#116329;--shiki-dark:#7EE787">    "rewards"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:{</span></span>
+<span class="line" data-line="30"><span style="color:#116329;--shiki-dark:#7EE787">      "1"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:[</span></span>
+<span class="line" data-line="31"><span style="color:#0A3069;--shiki-dark:#A5D6FF">         "plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">§7Reward:</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#FFFC26}⁑ Money: {#FF9601}500$</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#7AFF5A}⁑ Exp: {#FF9601}250"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="32"><span style="color:#0A3069;--shiki-dark:#A5D6FF">         "money add %player_name% 500"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="33"><span style="color:#0A3069;--shiki-dark:#A5D6FF">         "experience add %player_name% 250"</span></span>
+<span class="line" data-line="34"><span style="color:#1F2328;--shiki-dark:#E6EDF3">      ],</span></span>
+<span class="line" data-line="35"><span style="color:#116329;--shiki-dark:#7EE787">      "2"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">:[</span></span>
+<span class="line" data-line="36"><span style="color:#0A3069;--shiki-dark:#A5D6FF">        "plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">§7Reward:</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#FFFC26}⁑ Money: {#FF9601}250$</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#7AFF5A}⁑ Exp: {#FF9601}100"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="37"><span style="color:#0A3069;--shiki-dark:#A5D6FF">         "money add %player_name% 250"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="38"><span style="color:#0A3069;--shiki-dark:#A5D6FF">         "experience add %player_name% 100"</span></span>
+<span class="line" data-line="39"><span style="color:#1F2328;--shiki-dark:#E6EDF3">      ] </span></span>
+<span class="line" data-line="40"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    }</span></span>
+<span class="line" data-line="41"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  }</span></span>
+<span class="line" data-line="42"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre></div></div></div><h3 id="configuration" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📂 Configuration</span></h3><table><colgroup><col><col></colgroup><tbody><tr><th><p><br></p></th><th><p><br></p></th></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">display_item</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Defines how the quest appears in menus. LiteItem</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">conditions</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">A list of objectives the player must complete.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">display_tip</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Short description shown in the quest progress.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">action</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Type of action required (</span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">BREAK</span></code><span style="white-space: pre-wrap;">, </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">KILL</span></code><span style="white-space: pre-wrap;">, </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">COLLECT</span></code><span style="white-space: pre-wrap;">, etc.).</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">target</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Minecraft material or entity to interact with.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">amount</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Quantity required to fulfill the condition.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">reward</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Defines quest rewards and commands.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">start_commands</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Commands executed when the quest starts (server-wide or per-player).</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">rewards</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Numbered list of rewards, ranked by contribution (1 = highest completion, 2 = second place, etc.).</span></p></td></tr></tbody></table><p style="text-align: start;"></p><hr><p></p><h3 id="how-rewards-work" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">⚙️ How Rewards Work</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#how-rewards-work"></a></h3><ul><li value="1"><span style="white-space: pre-wrap;">Rewards are assigned </span><b><strong class="text-bold" style="white-space: pre-wrap;">by position in contribution ranking</strong></b><span style="white-space: pre-wrap;">.</span><br><span style="white-space: pre-wrap;">Example: The player who completes the largest percentage of the quest objectives gets reward </span><b><strong class="text-bold" style="white-space: pre-wrap;">#1</strong></b><span style="white-space: pre-wrap;">, the second-most contributing player gets reward </span><b><strong class="text-bold" style="white-space: pre-wrap;">#2</strong></b><span style="white-space: pre-wrap;">, and so on.</span></li><li value="2"><span style="white-space: pre-wrap;">Each reward set can contain:</span></li><li value="3"><ul><li value="1"><b><strong class="text-bold" style="white-space: pre-wrap;">Chat messages</strong></b><span style="white-space: pre-wrap;"> (</span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">plugin_message</span></code><span style="white-space: pre-wrap;">)</span></li><li value="2"><b><strong class="text-bold" style="white-space: pre-wrap;">Economy commands</strong></b><span style="white-space: pre-wrap;"> (</span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">money add</span></code><span style="white-space: pre-wrap;">)</span></li><li value="3"><b><strong class="text-bold" style="white-space: pre-wrap;">Experience commands</strong></b><span style="white-space: pre-wrap;"> (</span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">experience add</span></code><span style="white-space: pre-wrap;">)</span></li><li value="4"><b><strong class="text-bold" style="white-space: pre-wrap;">Any custom plugin commands</strong></b></li></ul></li></ul><p style="text-align: start;"></p><hr><p></p><h3 id="notes" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📢 Notes</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#notes"></a></h3><ul><li value="1"><b><strong class="text-bold" style="white-space: pre-wrap;">Global Quests</strong></b><span style="white-space: pre-wrap;">: </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">start_commands</span></code><span style="white-space: pre-wrap;"> can be used to send a server-wide notification when a global quest begins.</span></li><li value="2"><b><strong class="text-bold" style="white-space: pre-wrap;">Completion</strong></b><span style="white-space: pre-wrap;">: In this example, players must break </span><b><strong class="text-bold" style="white-space: pre-wrap;">3 Stone</strong></b><span style="white-space: pre-wrap;"> and </span><b><strong class="text-bold" style="white-space: pre-wrap;">3 Andesite</strong></b><span style="white-space: pre-wrap;"> to finish the quest.</span></li><li value="3"><b><strong class="text-bold" style="white-space: pre-wrap;">Color Codes</strong></b><span style="white-space: pre-wrap;">: The </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">{#HEXCODE}</span></code><span style="white-space: pre-wrap;"> format is supported for hex colors. Standard Minecraft </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">§</span></code><span style="white-space: pre-wrap;"> color codes can also be used.</span></li></ul><h2 id="dynamic-quest-configuration" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">⚡ Dynamic Quest Configuration</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#dynamic-quest-configuration"></a></h2><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Dynamic quests in </span><b><strong class="text-bold" style="white-space: pre-wrap;">LiteQuest</strong></b><span style="white-space: pre-wrap;"> allow </span><b><strong class="text-bold" style="white-space: pre-wrap;">variable objectives</strong></b><span style="white-space: pre-wrap;"> and </span><b><strong class="text-bold" style="white-space: pre-wrap;">scalable rewards</strong></b><span style="white-space: pre-wrap;"> based on each player’s performance.</span><br><span style="white-space: pre-wrap;">Unlike static quests, where objectives are fixed, dynamic quests use </span><b><strong class="text-bold" style="white-space: pre-wrap;">randomized target amounts</strong></b><span style="white-space: pre-wrap;"> and </span><b><strong class="text-bold" style="white-space: pre-wrap;">per-unit rewards</strong></b><span style="white-space: pre-wrap;">.</span></p><h3 id="example-miner-quest-(dynamic)" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📝 Example – Miner Quest (Dynamic)</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#example-miner-quest-dynamic"></a></h3><div class="code-block"><div class="toolbar-cell"><div class="language-title">JSON</div><div><sl-copy-button value="{
+  &quot;display_item&quot;: {
+    &quot;material&quot;: &quot;IRON_PICKAXE&quot;,
+    &quot;display_name&quot;: &quot;{#FFE04F}Miner quest!&quot;,
+    &quot;lore&quot;: [
+      &quot;{#FFD966}Put your pickaxe to work and show your skills!&quot;,
+      &quot;{#FFD966}Mine various stones and gather valuable resources.&quot;,
+      &quot;{#FFD966}Complete all tasks to earn great rewards.&quot;
+    ]
+  },
+  &quot;conditions&quot;: [
+    {
+      &quot;display_tip&quot;: &quot;{#B1B3A5}Stone&quot;,
+      &quot;action&quot;: &quot;BREAK&quot;,
+      &quot;target&quot;: &quot;STONE&quot;,
+      &quot;amount&quot;: &quot;1-10&quot;,
+      &quot;reward_per_unit&quot;: {
+        &quot;money&quot;: 10
+      }
+    },
+    {
+      &quot;display_tip&quot;: &quot;{#B1B3A5}Andesite&quot;,
+      &quot;action&quot;: &quot;BREAK&quot;,
+      &quot;target&quot;: &quot;ANDESITE&quot;,
+      &quot;amount&quot;: &quot;1-10&quot;,
+      &quot;reward_per_unit&quot;: {
+        &quot;money&quot;: 10,
+        &quot;exp&quot;: 5
+      }
+    }
+  ],
+  &quot;reward&quot;: {
+    &quot;start_commands&quot;: [
+      &quot;server_message {#FF8C26}[LiteQuest] {#FF8C26}{#FFFB92}Miner quest has started! {#FF3939}Hurry up!!!&quot;
+    ],
+    &quot;reward_commands&quot;: [
+      &quot;plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!\n§7Reward:\n {#FFFC26}⁑ Money: {#FF9601}%money%$\n {#7AFF5A}⁑ Exp: {#FF9601}%exp%&quot;,
+      &quot;money add %player_name% %money%&quot;,
+      &quot;experience add %player_name% %exp%&quot;
+    ],
+    &quot;reward_map&quot;: [
+      &quot;1 100%&quot;,
+      &quot;2-5 50%&quot;,
+      &quot;5-10 25%&quot;
+    ]
+  }
+}" copy-label="Copy to clipboard" success-label="The code is copied to clipboard"></sl-copy-button></div></div><div class="code-cell" style="height: 1208.3px;"><div class="container"><pre class="shiki shiki-themes" style="background-color:#f1f5f9;--shiki-dark-bg:#0d1117;color:#1f2328;--shiki-dark:#e6edf3" tabindex="0"><code class="code-view"><span class="line" data-line="1"><span style="color:#1F2328;--shiki-dark:#E6EDF3">{</span></span>
+<span class="line" data-line="2"><span style="color:#116329;--shiki-dark:#7EE787">  "display_item"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="3"><span style="color:#116329;--shiki-dark:#7EE787">    "material"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"IRON_PICKAXE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="4"><span style="color:#116329;--shiki-dark:#7EE787">    "display_name"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#FFE04F}Miner quest!"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="5"><span style="color:#116329;--shiki-dark:#7EE787">    "lore"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="6"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Put your pickaxe to work and show your skills!"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="7"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Mine various stones and gather valuable resources."</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="8"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "{#FFD966}Complete all tasks to earn great rewards."</span></span>
+<span class="line" data-line="9"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ]</span></span>
+<span class="line" data-line="10"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  },</span></span>
+<span class="line" data-line="11"><span style="color:#116329;--shiki-dark:#7EE787">  "conditions"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="12"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    {</span></span>
+<span class="line" data-line="13"><span style="color:#116329;--shiki-dark:#7EE787">      "display_tip"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#B1B3A5}Stone"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="14"><span style="color:#116329;--shiki-dark:#7EE787">      "action"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"BREAK"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="15"><span style="color:#116329;--shiki-dark:#7EE787">      "target"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"STONE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="16"><span style="color:#116329;--shiki-dark:#7EE787">      "amount"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"1-10"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="17"><span style="color:#116329;--shiki-dark:#7EE787">      "reward_per_unit"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="18"><span style="color:#116329;--shiki-dark:#7EE787">        "money"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">10</span></span>
+<span class="line" data-line="19"><span style="color:#1F2328;--shiki-dark:#E6EDF3">      }</span></span>
+<span class="line" data-line="20"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    },</span></span>
+<span class="line" data-line="21"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    {</span></span>
+<span class="line" data-line="22"><span style="color:#116329;--shiki-dark:#7EE787">      "display_tip"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"{#B1B3A5}Andesite"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="23"><span style="color:#116329;--shiki-dark:#7EE787">      "action"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"BREAK"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="24"><span style="color:#116329;--shiki-dark:#7EE787">      "target"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"ANDESITE"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="25"><span style="color:#116329;--shiki-dark:#7EE787">      "amount"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0A3069;--shiki-dark:#A5D6FF">"1-10"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="26"><span style="color:#116329;--shiki-dark:#7EE787">      "reward_per_unit"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="27"><span style="color:#116329;--shiki-dark:#7EE787">        "money"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">10</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="28"><span style="color:#116329;--shiki-dark:#7EE787">        "exp"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: </span><span style="color:#0550AE;--shiki-dark:#79C0FF">5</span></span>
+<span class="line" data-line="29"><span style="color:#1F2328;--shiki-dark:#E6EDF3">      }</span></span>
+<span class="line" data-line="30"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    }</span></span>
+<span class="line" data-line="31"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  ],</span></span>
+<span class="line" data-line="32"><span style="color:#116329;--shiki-dark:#7EE787">  "reward"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: {</span></span>
+<span class="line" data-line="33"><span style="color:#116329;--shiki-dark:#7EE787">    "start_commands"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="34"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "server_message {#FF8C26}[LiteQuest] {#FF8C26}{#FFFB92}Miner quest has started! {#FF3939}Hurry up!!!"</span></span>
+<span class="line" data-line="35"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ],</span></span>
+<span class="line" data-line="36"><span style="color:#116329;--shiki-dark:#7EE787">    "reward_commands"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="37"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "plugin_message {#FFE04F}Miner quest {#7AFF5A}completed!</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF">§7Reward:</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#FFFC26}⁑ Money: {#FF9601}%money%$</span><span style="color:#CF222E;--shiki-dark:#FF7B72">\n</span><span style="color:#0A3069;--shiki-dark:#A5D6FF"> {#7AFF5A}⁑ Exp: {#FF9601}%exp%"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="38"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "money add %player_name% %money%"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="39"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "experience add %player_name% %exp%"</span></span>
+<span class="line" data-line="40"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ],</span></span>
+<span class="line" data-line="41"><span style="color:#116329;--shiki-dark:#7EE787">    "reward_map"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">: [</span></span>
+<span class="line" data-line="42"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "1 100%"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="43"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "2-5 50%"</span><span style="color:#1F2328;--shiki-dark:#E6EDF3">,</span></span>
+<span class="line" data-line="44"><span style="color:#0A3069;--shiki-dark:#A5D6FF">      "5-10 25%"</span></span>
+<span class="line" data-line="45"><span style="color:#1F2328;--shiki-dark:#E6EDF3">    ]</span></span>
+<span class="line" data-line="46"><span style="color:#1F2328;--shiki-dark:#E6EDF3">  }</span></span>
+<span class="line" data-line="47"><span style="color:#1F2328;--shiki-dark:#E6EDF3">}</span></span></code></pre></div></div></div><p dir="ltr" style="text-align: start;"></p><hr><p></p><h3 id="configuration-breakdown" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📂 Configuration Breakdown</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#configuration-breakdown-1"></a></h3><table><colgroup><col><col></colgroup><tbody><tr><th><p><br></p></th><th><p><br></p></th></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">amount</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Random range for objective count (e.g., </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">"1-10"</span></code><span style="white-space: pre-wrap;"> → random between 1 and 10).</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">reward_per_unit</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Reward values per unit of the objective completed.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">reward_commands</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Commands executed for </span><b><strong class="text-bold" style="white-space: pre-wrap;">all ranked players</strong></b><span style="white-space: pre-wrap;">, using calculated reward values.</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">reward_map</strong></code></b></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Determines </span><b><strong class="text-bold" style="white-space: pre-wrap;">percentage of rewards</strong></b><span style="white-space: pre-wrap;"> for each ranking group (e.g., rank 1 gets 100%, ranks 2–5 get 50%, ranks 5–10 get 25%).</span></p></td></tr></tbody></table><p dir="ltr" style="text-align: start;"></p><hr><p></p><h3 id="how-rewards-are-calculated" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">⚙️ How Rewards Are Calculated</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#how-rewards-are-calculated"></a></h3><ol><li value="1"><b><strong class="text-bold" style="white-space: pre-wrap;">Determine Objective Amount</strong></b><br><span style="white-space: pre-wrap;">For each condition, a random number within </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">amount</span></code><span style="white-space: pre-wrap;"> range is chosen.</span><br><span style="white-space: pre-wrap;">Example: </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">1-10</span></code><span style="white-space: pre-wrap;"> → the quest may require 7 Stone this time.</span></li><li value="2"><b><strong class="text-bold" style="white-space: pre-wrap;">Track Player Progress</strong></b><br><span style="white-space: pre-wrap;">Every completed unit adds to the player’s reward calculation using </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">reward_per_unit</span></code><span style="white-space: pre-wrap;">.</span></li><li value="3"><b><strong class="text-bold" style="white-space: pre-wrap;">Calculate Base Rewards</strong></b><br><span style="white-space: pre-wrap;">iniКопироватьРедактироватьTotal_Money = Units_Completed × money_per_unit</span><br><span style="white-space: pre-wrap;">Total_Exp   = Units_Completed × exp_per_unit</span></li><li value="4"><b><strong class="text-bold" style="white-space: pre-wrap;">Apply Ranking Modifiers</strong></b></li><li value="5"><ul><li value="1"><span style="white-space: pre-wrap;">Ranking is based on </span><b><strong class="text-bold" style="white-space: pre-wrap;">percentage of total quest completion</strong></b><span style="white-space: pre-wrap;">.</span></li><li value="2"><span style="white-space: pre-wrap;">Apply percentage from </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">reward_map</span></code><span style="white-space: pre-wrap;"> to each player’s </span><b><strong class="text-bold" style="white-space: pre-wrap;">calculated rewards</strong></b><span style="white-space: pre-wrap;">.</span></li></ul></li></ol><p dir="ltr" style="text-align: start;"></p><hr><p></p><h3 id="notes" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">📢 Notes</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#notes-1"></a></h3><ul><li value="1"><b><strong class="text-bold" style="white-space: pre-wrap;">Dynamic difficulty</strong></b><span style="white-space: pre-wrap;"> makes each quest unique on every run.</span></li><li value="2"><b><code spellcheck="false" style="white-space: pre-wrap;"><strong class="text-bold text-code">reward_per_unit</strong></code></b><b><strong class="text-bold" style="white-space: pre-wrap;"> as placeholders</strong></b><span style="white-space: pre-wrap;">:</span><br><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">%money%</span></code><span style="white-space: pre-wrap;"> and </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">%exp%</span></code><span style="white-space: pre-wrap;"> are automatically replaced in </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">reward_commands</span></code><span style="white-space: pre-wrap;"> with the calculated totals after applying </span><code spellcheck="false" style="white-space: pre-wrap;"><span class="text-code">reward_map</span></code><span style="white-space: pre-wrap;">.</span></li><li value="3"><b><strong class="text-bold" style="white-space: pre-wrap;">Flexible scaling</strong></b><span style="white-space: pre-wrap;"> allows easy balancing of rewards for large player groups.</span></li></ul><h2 id="quest-event-actions" dir="ltr" style="text-align: start;"><span style="white-space: pre-wrap;">🎯 Quest Event Actions</span><a href="https://app.gitbook.com/o/Sgl5A1EYnlxkFMzFu34G/s/oA1RB3aHwl8mq4cki8Lg/quest-config#quest-event-actions"></a></h2><table><colgroup><col><col></colgroup><tbody><tr><th><p><br></p></th><th><p><br></p></th></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">BREAK</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Block break</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">PLACE</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Block place</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">SMELT</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Furnace smelt (todo)</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">CRAFT</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Item craft</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">KILL</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Entity kill</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">TAME</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Entity tame</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">MILK</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Milk entity</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">SHEAR</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Shear entity</span></p></td></tr><tr><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">BREED</span></p></td><td><p dir="ltr" style="text-align: left;"><span style="white-space: pre-wrap;">Breed entity</span></p></td></tr></tbody></table>
+                    </div>
+                </main>
+                <div class="footer">
+                    <div class="content">
+                        <div class="date">
+                            <div>Aug 12, 2025</div>
+                        </div>
+                        
+                            <a href="/PawStudio-Docs/" class="column left-column" title="📜 Welcome to LiteQuest">
+                                <div class="icon">
+                                    <sl-icon name="chevron-left"></sl-icon>
+                                </div>
+                                <div class="label">
+                                    <div class="title">PREVIOUS</div>
+                                    <div class="line-clamp-2">
+                                        📜 Welcome to LiteQuest
+                                    </div>
+                                </div>
+                            </a>
+                        
+                         <div></div> 
+                    </div>
+                </div>
+            </article>
+            <aside class="toc">
+                <nav class="toc">
+                    
+                    <div class="title">
+                        <sl-icon class="icon" name="list-nested"></sl-icon>
+                        <div>
+                            On this page
+                        </div>
+                    </div>
+                    <div id="toc-list" class="list">
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#example-miner-quest-(static)">📝 Example – Miner Quest (Static)</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#configuration">📂 Configuration</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#how-rewards-work">⚙️ How Rewards Work</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#notes">📢 Notes</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#dynamic-quest-configuration">⚡ Dynamic Quest Configuration</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#example-miner-quest-(dynamic)">📝 Example – Miner Quest (Dynamic)</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#configuration-breakdown">📂 Configuration Breakdown</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#how-rewards-are-calculated">⚙️ How Rewards Are Calculated</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-3 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#notes">📢 Notes</a>
+                                </div>
+                                
+                        
+                            
+                                <div class="heading-2 line-clamp-2">
+                                    <a href="/PawStudio-Docs/documentation/litequest/quest-config/#quest-event-actions">🎯 Quest Event Actions</a>
+                                </div>
+                                
+                        
+                    </div>
+                    
+                </nav>
+            </aside>
+        </div>
+        <footer>
+            <div class="stack__column stack__gap-4 stack__center">
+                
+                <div class="stack__row stack__center">
+                    <span><span>Year &copy; Company Name</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<sl-dialog id="search-dialog" class="dialog_control dialog__search">
+    <div slot="label">
+        <p>Search</p>
+    </div>
+    <div class="pane stack__column stack__gap-4">
+        <div>
+            <sl-input
+                id="search-input"
+                type="text"
+                size="small"
+                autocomplete="off"
+                autofocus
+                clearable
+                placeholder="Type text you want to search..."
+            >
+            </sl-input>
+        </div>
+        <div id="search-result" class="stack__column stack__gap-4 search-result">
+        </div>
+        <div id="search-footer" class="footer"></div>
+    </div>
+</sl-dialog>
+<script type="module" src="https://nekomadev.github.io/PawStudio-Docs/_lib/index.js" data-shoelace="https://nekomadev.github.io/PawStudio-Docs/_lib"></script>
+<script type="module">
+    import {initPage, initTheme, initSearch, initToc} from 'https://nekomadev.github.io/PawStudio-Docs/_lib/init.js';
+    import {preInitTree} from 'https://nekomadev.github.io/PawStudio-Docs/_lib/pre.js';
+    preInitTree();
+    await initPage();
+    await initTheme('system');
+    await initSearch('https://nekomadev.github.io/PawStudio-Docs', '1755010558886');
+    document.documentElement.style.visibility = 'visible';
+    document.documentElement.style.opacity = '1';
+    initToc();
+</script>
+
+</body>
+</html>
